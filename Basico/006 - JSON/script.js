@@ -65,8 +65,11 @@ const txt = `{"nome": "Computador", "price": 50.9, "due-date": "2025-04-15"}`;
 
 const obj = JSON.parse(txt);
 
-console.log(txt.name);
+console.log(txt.nome);
 
 console.log(obj.nome);
 
 const text = JSON.stringify(obj);
+
+console.log(text);
+console.log(obj);
